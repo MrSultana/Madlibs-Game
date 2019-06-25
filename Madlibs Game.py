@@ -51,7 +51,7 @@ for i in range(len(adj)):
 fight = input(f"Okay, one more word. What would these people do to protect {theMatrix}?\n")
 
 # Ending line
-print("All done! Time to read your story, my dude or dudette.\n")
+print("All done! Time to read your story!.\n")
 
 # Init Story
 madlibsStory = (f"{theMatrix} is a {system}, {neo}. That {system} is our {enemy}. " +

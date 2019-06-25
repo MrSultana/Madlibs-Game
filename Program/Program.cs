@@ -28,40 +28,40 @@ namespace Program
 
             // Gets system variable from user
             Console.WriteLine($"So, you want to know more about {theMatrix}?");
-            Console.WriteLine($"Okay, well first tell me what you already know about {theMatrix}");
+            Console.WriteLine($"Okay, well first tell me what you already know about {theMatrix}.");
             Console.WriteLine($"What noun would you categorise {theMatrix} as?"); 
             system = Console.ReadLine();
 
             // Gets enemy variable from user
-            Console.WriteLine($"Give me an opposing noun to {system}");
+            Console.WriteLine($"Give me an opposing noun to {system}.");
             enemy = Console.ReadLine();
 
             // Gets inside variable from user
-            Console.WriteLine($"Now give me any relaxing noun (present tense)");
+            Console.WriteLine($"Now give me a noun to describe where someone is (present tense).");
             inside = Console.ReadLine();
 
             // Gets user to define each of the four professions needed
             Console.WriteLine($"Ok, now I need four professsion relating to {system}.");
             for (int i = 0; i < profession.Length; i++)
             {
-                Console.WriteLine($"Profession (plural) {i + 1} / {profession.Length}");
+                Console.WriteLine($"Profession (plural) {i + 1} / {profession.Length}.");
                 profession[i] = Console.ReadLine();
             }
 
             // Gets user to define the save variable
-            Console.WriteLine("Okay, time to get the rest of the words");
-            Console.WriteLine("Please give me a verb relating to the people in these professions");
+            Console.WriteLine("Okay, time to get the rest of the words.");
+            Console.WriteLine("Please give me a verb relating to the people in these professions.");
             save = Console.ReadLine();
 
             // Gets the user to define the unplugged variable
-            Console.WriteLine("Give me an adjective, that describes what the people in these professions do not want to be");
+            Console.WriteLine("Give me an adjective, that describes what the people in these professions do not want to be.");
             unplugged = Console.ReadLine();
 
             // Gets user to define the two adjectives in the array
             Console.WriteLine("Okay, now im going to get you to give me two adjectives.");
             for (int i = 0; i < adj.Length; i++)
             {
-                Console.WriteLine($"Adjective (plural) {i + 1} / {adj.Length}");
+                Console.WriteLine($"Adjective (plural) {i + 1} / {adj.Length}.");
                 adj[i] = Console.ReadLine();
             }
 
